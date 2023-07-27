@@ -17,7 +17,3 @@ steps:
       - '--allow-unauthenticated'
 options:
   logging: CLOUD_LOGGING_ONLY
-
-  gcloud run services add-iam-policy-binding devops-world \
-    --member="allUsers" \
-    --role="roles/run.invoker"
